@@ -1,71 +1,73 @@
 .container {
-   height: 1000px;
-    width: 950px;
-    background-color: rgb(142, 221, 231);
-    padding-top: 10px;
-    display: flex;
-    flex: 2;
-    flex-direction: column;
-  }
+  height: 1000px;
+  width: 950px;
+  background-color: rgb(142, 221, 231);
+  padding-top: 10px;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
 
-  h1{
-    font-size: 70px;
-    text-align: center;
-    color:grey;
-  }
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: grey;
+}
 
-  .bloque1{
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-   
-  }
-  .contenedorImagen1{
-    background-color: rgb(34, 109, 207);
-    height: 200px;
-    width: 900px;
-    padding-top: 25px;
-    margin-left: 25px;
-   
-    
-  }
-  .imagen1{
-    height: 175px;
-    width: 200px;
-   
-  }
-
-  .bloque2{
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  .contenedorImagen2{
-    background-color: pink;
-    height: 200px;
-    width: 900px;
-    padding-top: 25px;
-    margin-left: 25px;
-    margin-top: 25px;
-    margin-bottom: 30px;
-  }
+.bloque1 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
 
 
-  .bloque3{
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
+}
 
-  .contenedorImagen3{
-    background-color: whitesmoke;
-    height: 200px;
-    width: 900px;
-    padding-top: 25px;
-    margin-left: 25px;
-  }
+.contenedorImagen1 {
+  background-color: rgb(34, 109, 207);
+  height: 200px;
+  width: 900px;
+  padding-top: 25px;
+  margin-left: 25px;
+
+
+}
+
+.imagen1 {
+  height: 175px;
+  width: 200px;
+
+}
+
+.bloque2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contenedorImagen2 {
+  background-color: pink;
+  height: 200px;
+  width: 900px;
+  padding-top: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+
+.bloque3 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contenedorImagen3 {
+  background-color: whitesmoke;
+  height: 200px;
+  width: 900px;
+  padding-top: 25px;
+  margin-left: 25px;
+}
