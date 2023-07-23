@@ -1,0 +1,66 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.tarjetaUsuario{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid rgb(163,163,163,163);
+    position: relative;
+}
+
+.nombreusuario{
+    width: 150px;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+header{
+    background-color: rgb(55, 158, 226);
+    height: 80px;
+
+}
+.ImagendeUsuario{
+    width: 80px;
+    position: absolute;
+    margin-top: 30px;
+    border: 2px solid rgb(163,163,163,163);
+    border-radius: 50%;
+    padding: 2px;
+    margin-left: 20px;
+}
+
+main{
+    width: 300px;
+    padding-left: 20px;
+    position: relative;
+
+}
+
+.seattle{
+    font-size: 20px;
+    margin-left: 10px ;
+
+}
+.ubicacion, .edicion{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.icono,.pin{
+    width: 15px;
+    height: 15px;
+}
+
+.ciudad{
+    margin-left: 20px;
+}
+
+.editarPerfil{
+    margin-left: 10px;
+    color: rgb(55, 158, 226);
+    padding-bottom: 15px;
+}
+    

@@ -1,0 +1,155 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 50;
+}
+
+
+form{
+    padding: 30px;
+}
+
+#titulo, .seccionDos{
+    color: red;
+    background-color: purple;
+    font-size: 50px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 15px;
+    border: 5px dotted black;
+    margin-bottom: 50px;
+    /*border-color: black;
+    border-style: dotted;
+    border-width: 5px;*/
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+input[type="submit"] {
+    background-color: rgb(44, 118, 187);
+    border-radius: 25px ;
+    background: rgb(44, 118, 187) ;
+    padding: 20px;
+    width: 130px;
+    height: 15px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid rgb(37, 90, 160);
+    border-top: 2px solid rgb(37, 90, 160);
+    border-left:2px solid rgb(37, 90, 160);
+    border-right: 2px solid rgb(37, 90, 160);
+    font-weight:bold;
+    
+}
+
+a{
+    font-weight:bold;
+}
+
+h1{
+    color: rgb(44, 118, 187);
+    padding: 10px;
+    margin: 0;
+}
+
+h2{
+    border: 1px solid black;
+}
+
+li{
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+img{
+    width: 150px;
+    border-radius:300%;
+    border-bottom: 8px solid rgb(44, 118, 187);
+    
+}
+
+.snake{
+    width: 70px;
+    height: 70px;
+    border: 3px solid rgb(50, 122, 189);;
+    border-radius: 0%;
+}
+
+.calificaciones{
+    background-color: aqua;
+    width: 50%;
+    height: 200px;
+}
+
+.redessociales{
+    width: 45px;
+    height: 30px;
+    border: 3px solid rgb(50, 122, 189);;
+    border-radius: 0%;
+}
+
+a{  
+    font-size: small;
+    color: rgb(44, 118, 187);
+   
+}
+tr > td, th{
+    text-align: center;
+    border: 1px solid rgb(44, 118, 187);
+    color:rgb(44, 118, 187) ;
+}
+ 
+tr{
+background-color: rgb(234, 238, 241);
+color: white
+}
+
+form label{
+    color: rgb(50, 122, 189);
+  
+}
+    
+    
+   /* background-color: rgb(198, 3, 3);*/
+
+
+p{
+    border: 1px solid black;
+    /* padding-left: 20px;
+    padding-top: 50px3
+    padding-right: 5px;
+    padding-bottom: 30px; */
+    padding: 50px 5px 30px 20px;
+    margin: 100px 20px;
+}
+
+
+.sangria{
+    margin-left: 10px;
+}
+
+.special{
+    color: rgb(0, 47, 255);
+    font-weight: 900;
+    font-style: italic;
+}
+
+.seccionDos{
+    border-bottom: 2px solid black;
+    margin-bottom: 120px;
+}
+
+
+table{
+    border-spacing: 0;
+    font: rgb(50, 122, 189);
+    border: 2px solid;
+    border-color: rgb(50, 122, 189);
+    text-align: justify;
+    
+}
+
+
+.viñeta{
+    list-style: square;
+}

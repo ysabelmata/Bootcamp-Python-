@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.contenedorprincipal {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0;
+
+
+}
+
+.nav {
+    background-color: rgb(158, 154, 154);
+    width: 900px;
+    color: black;
+    margin-left: 30px;
+    font-size: 18p;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 15px;
+    padding: 20px;
+}
+
+.nav-title {
+    font-size: 40px;
+    margin-left: 63px;
+}
+
+.input-search {
+    margin-left: 90px;
+    width: 200px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    font-size: 12px;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(105, 122, 105);
+}
+
+.btn {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(47, 173, 223);
+    color: white;
+    box-shadow: 10px 5px 5px black;
+    font-family: 5px 'Balsamiq Sans', cursive white;
+    margin-left: 250px;
+    text-align: center;
+    font-size: 12px;
+}
+.numlikes{
+
+}
+
+.tarjetaNinja {
+    display: flex;
+    justify-content: row;
+    width: 600px;
+    height: 200px;
+    border: 3px solid black;
+    margin-left: 35px;
+    margin-bottom: 28px;
+    margin-top: 50px;
+}
+
+.ninja {
+    width: 110px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.infoNinja {
+    display: inline-block;
+    margin-top: 70px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+.ConceptoNinja {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.noun {
+    width: 110px;
+    font-size: 20px;
+    color: rgb(65, 63, 63);
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-style: italic;
+
+}
+
+.plural {
+    width: 140px;
+    font-size: 20px;
+    color: rgb(65, 63, 63);
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-style: italic;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.btnninja {
+    margin-left: 20px;
+    background-color: rgb(233, 233, 60);
+    width: 112px;
+    height: 30px;
+    box-shadow: 10px 5px 5px black;
+    font-family: 5px 'Balsamiq Sans', cursive black;
+
+}
+
+.tarjetaNinja2 {
+    display: flex;
+    justify-content: row;
+    width: 600px;
+    height: 200px;
+    border: 3px solid black;
+    margin-left: 35px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.btnninja2 {
+    margin-left: 20px;
+    background-color: rgb(233, 233, 60);
+    width: 112px;
+    height: 30px;
+    box-shadow: 10px 5px 5px black;
+
+}
+
+.side-nav {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 138px;
+    width: 260px;
+    height: 150px;
+    border: 3px solid black;
+    margin-left: 708px;
+
+}
+
+.side-tittle {
+    display: inline-block;
+    padding-top: 20px;
+    margin-left: 10px;
+    width: 350px;
+    height: 40px;
+    font-size: 30px;
+    font-family: 5px 'Balsamiq Sans', cursive black;
+}
+
+h5 {
+    color: rgb(53, 52, 52);
+    font-size: 30px;
+    margin-left: 10px;
+    width: 180;
+}
+
+
+h6 {
+    color: rgb(53, 52, 52);
+    font-size: 30px;
+    margin-left: 10px;
+    width: 180;
+}
+
+label {
+    color: black;
+}
+
+.btnadef {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(36, 211, 103);
+    width: 205px;
+    height: 35px;
+    box-shadow: 10px 5px 5px black;
+    font-family: 5px 'Balsamiq Sans', cursive black;
+}

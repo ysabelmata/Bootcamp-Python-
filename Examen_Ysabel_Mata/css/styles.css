@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(230, 229, 229);
+}
+
+.colorMorado {
+    color: blueviolet;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    border-top: 6px solid blueviolet;
+    padding: 0 250px;
+}
+
+li>img {
+    width: 30px;
+    height: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+
+h1 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.nav-busqueda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 10px;
+    gap: 15px;
+
+}
+
+.cantidadarticulos {
+    font-size: 15px;
+
+}
+
+h3 {
+    font-size: 20px;
+    padding: 0 260px;
+    margin: 10px 0;
+}
+
+.Escogerjuego {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px;
+    margin-bottom: 10px;
+}
+
+.imagencarrusel {
+    height: 250px;
+    width: 900px;
+}
+
+.adelantecarrusel {
+    transform: rotate(180deg);
+    width: 60px;
+    height: 50px;
+}
+
+.atrascarrusel {
+    width: 60px;
+    height: 50px;
+}
+
+
+.lineascarrusel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 0 600px;
+}
+
+.lineamorada {
+    background-color: blueviolet;
+}
+
+hr {
+    height: 4px;
+    width: 20px;
+    background-color: grey;
+}
+
+.contenedorjuegos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 250px;
+    gap: 15px;
+}
+
+.so {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.juegos {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+
+.imgjuego {
+    width: 279px;
+    height: 100px;
+}
+
+h5 {
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.descuentos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.descuento {
+    background-color: blueviolet;
+    width: 50px;
+    height: 40px;
+    color: white;
+}
+
+.comprar {
+    background-color: rgb(64, 245, 109);
+    width: 50px;
+    height: 40px;
+    color: white;
+}
+
+.precios {
+    text-align: center;
+}
+
+h6 {
+    font-size: 12px;
+    color: grey;
+    text-decoration: line-through;
+}
+
+p {
+    font-weight: bold;
+}
+
+.precionuevo {
+    margin-top: 15px;
+}

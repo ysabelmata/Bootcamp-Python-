@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/process" method="post">
+        <div>
+            <label>First Name *: </label>
+            <input type="text" name="name" placeholder="Your first name...">
+        </div>
+        <div>
+            <label>Last Name *: </label>
+            <input type="text" name="name" placeholder="Your last name...">
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" placeholder="Your email...">
+        </div>
+        <div>
+            <label>Password *: </label>
+            <input type="password" name="password" placeholder="Your password...">
+        </div>
+        <div>
+            <label>Gender Identity </label>
+        </div>
+        <label for="normal">Female </label>
+        <input type="radio" name="font" value="Female" id="Female">
+
+        <label for="normal">Male </label>
+        <input type="radio" name="font" value="Male" id="Male">
+
+        <label for="normal">No Binary </label>
+        <input type="radio" name="font" value="No Binary" id="No Binary">
+
+        <label for="normal">I prefer not to answer </label>
+        <input type="radio" name="font" value="No answer" id="No answer">
+        <div>
+            <label>A short description about myself: </label>
+            <textarea name="comment" cols="45" rows="5"></textarea>
+        </div>
+        <label>Favorite Language </label>
+        <select name="Java Script">
+            <option>Java Script</option>
+            <option>Phyton</option>
+            <option>Html</option>
+        </select>
+        <div>
+            <label for="accept">Yes, I would like to receive periodic e-mail update </label>
+            <input type="checkbox" name="accept" id="accept" id="accept" checked>
+        </div>
+        <div>
+            <input type="submit" value="Create Account">
+        </div>
+        <label for="accept">* Indicates a required file</label>
+    </form>
+</body>
+</html>

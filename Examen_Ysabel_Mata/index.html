@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <title>Gaming Dojo</title>
+</head>
+
+<body>
+    <div class="ContenedorPrincipal">
+        <nav>
+            <h1> Gaming<span class="colorMorado">Dojo</span></h1>
+            <ul class="nav-busqueda">
+                <li><select>
+                        <option value="euro">Euro €</option>
+                    </select>
+                </li>
+                <li>
+                    <img src="./images/cart-light.png" alt="carritodecompra">
+                </li>
+                <li>
+                    <h2 id="cantidad" class="cantidadarticulos">2</h2>
+                </li>
+                <li>
+                    <img src="./images/search-light.png" alt="busqueda">
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div class="fondo">
+                <div>
+                    <h3>Highlights</h3>
+                </div>
+                <div class="Escogerjuego">
+                    <img onclick="cambiar()" class="atrascarrusel" src="./images/chevron-left.png" alt="atras">
+                    <img class="imagencarrusel" src="./images/stonepunk.png" alt="imagenjuego" id="imagen-juego">
+                    <img onclick="cambiar()" class="adelantecarrusel" src="./images/chevron-left.png" alt="adelante">
+                </div>
+                <div class="lineascarrusel">
+                    <div>
+                        <hr class="lineas">
+                    </div>
+                    <div>
+                        <hr class="lineamorada">
+                    </div>
+                    <div>
+                        <hr class="lineas">
+                    </div>
+                    <div>
+                        <hr class="lineas">
+                    </div>
+                </div>
+            </div>
+            <div class="contenedorjuegos">
+                <div class="juegos">
+                    <img class="imgjuego" src="./images/cafe-neko.png" alt="cafeneko">
+                    <h5>Cafe Neko: Gold Edition</h5>
+                    <div>
+                        <img class="so" src="./images/windows.png" alt="windows">
+                        <img class="so" src="./images/apple.png" alt="apple">
+                    </div>
+                    <div class="descuentos">
+                        <button class="descuento">-20%</button>
+                        <div class="precios">
+                            <h6>€14.98</h6>
+                            <p>€10.49</p>
+                        </div>
+                        <button onclick="incrementarCarrito(this)" class="comprar">Buy</button>
+                    </div>
+                </div>
+                <div class="juegos">
+                    <img class="imgjuego" src="./images/pixel-ninjas-2.png" alt="pixelninjas2">
+                    <h5>Pixel NInjas 2</h5>
+                    <div>
+                        <img class="so" src="./images/windows.png" alt="windows">
+                        <img class="so" src="./images/apple.png" alt="apple">
+                    </div>
+                    <div class="descuentos">
+                        <button class="descuento">-10%</button>
+                        <div class="precios">
+                            <h6>€8.19</h6>
+                            <p>€7.39
+                            <p>
+                        </div>
+                        <button onclick="incrementarCarrito(this)" class="comprar">Buy</button>
+                    </div>
+                </div>
+                <div class="juegos">
+                    <img class="imgjuego" src="./images/stonepunk.png" alt="stonepunk">
+                    <h5>Stonepunk 10000 BCE</h5>
+                    <div>
+                        <img class="so" src="./images/windows.png" alt="windows">
+                        <img class="so" src="./images/apple.png" alt="apple">
+                        <img onclick="alertLinux(this)" class="so" src="./images/linux.png" alt="apple">
+                    </div>
+                    <div class="descuentos">
+                        <button class="descuento">NEW</button>
+                        <div class="precios">
+                            <p class="precionuevo">€19.99</p>
+                        </div>
+                        <button onclick="incrementarCarrito(this)" class="comprar">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

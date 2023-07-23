@@ -1,0 +1,39 @@
+.button1 {
+    background-color: #e7eff3;
+    border: 2px solid rgb(101, 148, 235);
+    color:rgb(101, 148, 235);
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    height: 30px;
+    width: 120px;
+    font: bolder;
+    font-family: cursive;
+    margin: 30px 50px 20px 20px;
+}
+
+.button2 {
+    background-color:rgb(36, 233, 240);
+    color:white;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    font: bolder;
+    font-family: cursive;
+    margin: 10px 50px 20px 20px;
+}
+
+.button3 {
+    background-color:rgb(36, 233, 240);
+    color:white;
+    height: 40px;
+    width: 150px;
+    border: 3px solid black;
+    font-size: 15px;
+    font: bolder;
+    font-family: cursive;
+    box-shadow: 10px 5px 5px black;
+    margin: 10px 50px 20px 20px;   
+}

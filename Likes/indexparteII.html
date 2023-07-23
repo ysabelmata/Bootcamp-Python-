@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:wght@50;200&family=Ysabeau:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <form class="contenedorprincipal" onsubmit="return false">
+        <div class="nav">
+            <h1 class="nav-title">Network</h1>
+        </div>
+        <h2 class="feed">Your Feed</h2>
+        <div class="contenedor-secundario">
+            <div class="tarjeta-avatar">
+                <img src="./img/user-circle.png" alt="usuario">
+                <div><a class="add">Add an avatar</a></div>
+                <div>
+                    <p class="nombre">James Doe</p>
+                </div>
+            </div>
+            <div class="cont-tarjetaslike">
+                <div class="tarjetaUsuario">
+                    <div class="contenedor2">
+                        <h3 class="someuser">Neil M</h3>
+                        <h4 id="likes" class="like">9</h4>
+                        <h5>Like(s)</h5>
+                        <button class="btnlikes" onclick="incrementarLikes(this)"><span
+                                class="numlikes"></span>Likes</button>
+                    </div>
+                    <h6 class="text">I just set up this new doscord bot, let me know what you all think.<span
+                            class="link">link</span></h6>
+                </div>
+                <div class="tarjetaUsuario">
+                    <div class="contenedor2">
+                        <h3 class="someuser">Nichole k</h3>
+                        <h4 id="likes1" class="like">12</h4>
+                        <h5>Like(s)</h5>
+                        <button class="btnlikes" onclick="incrementarLikes2(this)"><span
+                                class="numlikes"></span>Likes</button>
+                    </div>
+                    <h6 class="text">Just finished my <span class="link">next comic,</span> check it out.</h6>
+                </div>
+                <div class="tarjetaUsuario">
+                    <div class="contenedor2">
+                        <h3 class="someuser">Jim R</h3>
+                        <h4 id="likes2" class="like">9</h4>
+                        <h5>Like(s)</h5>
+                        <button class="btnlikes" onclick="incrementarLikes3(this)"><span
+                                class="numlikes"></span>Likes</button>
+                    </div>
+                    <h6 class="text">I can't stop listening to the <span class="link"> new album. </span></h6>
+
+                </div>
+            </div>
+        </div>
+        <script src="./js/likes.js"></script>
+    </form>
+</body>
+
+</html>

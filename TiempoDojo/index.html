@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <title>TiempoDojo</title>
+</head>
+
+<body>
+    <div class="ContenedorPrincipal">
+        <nav>
+            <h1>
+                DojoWeather
+            </h1>
+            <ul class="ciudades" >
+                <li onclick="despAlert(this)">Burbank</li>
+                <li onclick="despAlert(this)">Chicago</li>
+                <li onclick="despAlert(this)">Dallas</li>
+            </ul>
+        </nav>
+        <main>
+            <div class="climaciudad">
+                <h2>
+                    San Jose
+                </h2>
+                <div>
+                    <span>
+                        show temperature in
+                    </span>
+                    <select onchange="changeMetric(this)">
+                        <option value="celsius">°C</option>
+                        <option value="farenheit">°F</option>
+                    </select>
+                </div>
+            </div>
+            <div class="tiempo">
+                <div class="dia">
+                    <h3>Today</h3>
+                    <img src="./imagenes/some_rain.png" alt="lluvia">
+                    <div class="descripcion">
+                        some rain
+                    </div>
+                    <div class="temperatura">
+                        <div>
+                            <span class="max">24</span>°
+                        </div>
+                        <div>
+                            <span class="min">18</span>°
+                        </div>
+                    </div>
+                </div>
+                <div class="dia">
+                    <h3>Tomorrow</h3>
+                    <img src="./imagenes/some_sun.png" alt="sol">
+                    <div class="descripcion">
+                        some sun
+                    </div>
+                    <div class="temperatura">
+                        <div>
+                            <span class="max">27</span>°
+                        </div>
+                        <div>
+                            <span class="min">19</span>°
+                        </div>
+                    </div>
+                </div>
+                <div class="dia">
+                    <h3>Friday</h3>
+                    <img src="./imagenes/some_clouds.png" alt="nubes">
+                    <div class="descripcion">
+                        some clouds
+                    </div>
+                    <div class="temperatura">
+                        <div>
+                            <span class="max">21</span>°
+                        </div>
+                        <div>
+                            <span class="min">16</span>°
+                        </div>
+                    </div>
+                </div>
+                <div class="dia">
+                    <h3>Saturday</h3>
+                    <img src="./imagenes/some_sun.png" alt="sol">
+                    <div class="descripcion">
+                        some sun
+                    </div>
+                    <div class="temperatura">
+                        <div>
+                            <span class="max">26</span>°
+                        </div>
+                        <div>
+                            <span class="min">21</span>°
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </main>
+    </div>
+        <div class="cookie">
+            <img src="./imagenes/cookie.png" alt="cookie">
+            <div>
+                <h3>Stop! Cookie time</h3>
+                <p>
+                    We use cookies (sadly not the edible ones) to personalize contente and ads, 
+                    to provide social media features and to analyse our traffic.<a href="#">Read more</a>
+                </p>
+            </div>
+                <button  onclick="aceptCookie(this)" class="botonacepto">
+                 I accept
+                </button>
+        </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

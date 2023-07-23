@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/dojonary.css">
+    <title>Dojonary</title>
+</head>
+
+<body>
+    <form class="contenedorprincipal" onsubmit="return false">
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <input class="input-search" type="text" name="name" placeholder="Search...">
+            <button class="btn" onclick="logout(this)">Login</button>
+        </div>
+        <div class="tarjetaNinja">
+            <div class="ConceptoNinja">
+                <h2 class="ninja"> ninja </h2>
+                <h3 class="noun"> noun </h3>
+                <h4 class="plural"> Plural:<span> ninjas</span></h4>
+                <button class="btnninja" onclick="alert_ninja(this)"><span class="numlikes">13</span>likes</button>
+            </div>
+            <div>
+                <p class="infoNinja">A practitioner skilled in the <a>Japanese </a>art of <a>ninjutsu</a>
+            </div>
+        </div>
+        <div class="side-nav">
+            <h5 class="side-tittle">Dojonary is</h5>
+            <h6>defined by <label>YOU</label></h6>
+            <button class="btnadef" onclick="hide(this)">Add Definition</button>
+        </div>
+        <div class="tarjetaNinja2">
+            <div class="ConceptoNinja">
+                <h2 class="ninja"> ninja </h2>
+                <h3 class="noun"> noun </h3>
+                <h4 class="plural"> Plural:<span> ninjas</span></h4>
+                <button class="btnninja2" onclick="alert_ninja(this)"><span class="numlikes" >37</span>likes</button>
+            </div>
+            <div>
+                <p class="infoNinja">A <a> programmer </a> who breaks down problems with <a> zen </a> -like focus</p>
+            </div>
+        </div>
+        <script src="./js/dojonary.js"></script>
+    </form>
+</body>
+
+</html>
