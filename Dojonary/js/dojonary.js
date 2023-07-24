@@ -1,11 +1,11 @@
 function alert_ninja(element) {
-   window.alert("Ninja was liked");
-   //console.log( element.querySelector( ".numlikes" ).innerText );
-   let spanlikes = element.querySelector( ".numlikes" );
-   numlikes = Number( spanlikes.textContent );
-   numlikes += 1;
-   console.log ( numlikes );
-   spanlikes.innerText = numlikes;
+    window.alert("Ninja was liked");
+    //console.log( element.querySelector( ".numlikes" ).innerText );
+    let spanlikes = element.querySelector(".numlikes");
+    numlikes = Number(spanlikes.textContent);
+    numlikes += 1;
+    console.log(numlikes);
+    spanlikes.innerText = numlikes;
 }
 
 function logout(element) {
